@@ -26,8 +26,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   output: 'static',
-  site: 'https://ricardodarocha.github.io',
-  base: 'financial-astro-template',
+  base: '/4G.github.io/',
 
   integrations: [
     tailwind({
