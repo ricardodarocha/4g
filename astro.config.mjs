@@ -25,7 +25,7 @@ const whenExternalScripts = (items = []) =>
     : [];
 
 export default defineConfig({
-  output: 'build',
+  output: 'static',
   site: 'https://ricardodarocha.github.io',
   base: '/4g/',
 
@@ -93,5 +93,7 @@ export default defineConfig({
         '~': path.resolve(__dirname, './src'),
       },
     },
+  }, build: {
+    assets: '.'
   },
 });
