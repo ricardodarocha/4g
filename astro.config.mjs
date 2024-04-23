@@ -62,7 +62,7 @@ export default defineConfig({
     }
   },
   build: {
-    assets: '.'
+    assets: 'astro'
   },
   adapter: netlify()
 });
