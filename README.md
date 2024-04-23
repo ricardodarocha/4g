@@ -173,7 +173,7 @@ metadata:
   openGraph:
     site_name: 'Example'
     images: 
-      - url: 'https://github.com/ricardodarocha/4G/blob/main/src/assets/images/default.png'
+      - url: 'https://raw.githubusercontent.com/ricardodarocha/4G/main/src/assets/images/default.pngg'
         width: 1200
         height: 628
     type: website
