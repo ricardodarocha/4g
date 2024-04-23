@@ -87,6 +87,7 @@ export default defineConfig({
   },
 
   vite: {
+    base: '/4g/',  // mesma configuração aqui para garantir consistência
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),
