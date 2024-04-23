@@ -57,7 +57,7 @@ export default defineConfig({
     // mesma configuração aqui para garantir consistência
     resolve: {
       alias: {
-        '~': path.resolve(__dirname, './src/astro')
+        '~': path.resolve(__dirname, './src')
       }
     }
   },
