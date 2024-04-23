@@ -26,7 +26,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   output: 'static',
-  site: 'https://ricardodarocha.github.io',
+  site: 'https://ricardodarocha.github.io/',
   base: '/4g/',
 
   integrations: [
