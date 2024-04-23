@@ -61,8 +61,5 @@ export default defineConfig({
       }
     }
   },
-  build: {
-    assets: '4g'
-  },
   adapter: netlify()
 });
