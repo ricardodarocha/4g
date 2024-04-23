@@ -32,7 +32,10 @@ const metadata = {
       },
       { text: 'Saiba mais', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'Financial Hero Image' }}
+    image={{
+      src: 'https://github.com/ricardodarocha/4G/blob/main/src/assets/images/hero-image.png',
+      alt: 'Financial Hero Image',
+    }}
   >
     <Fragment slot="title">
       A melhor forma <span class="hidden xl:inline">de controle financeiro para a sua empresa</span>
@@ -267,8 +270,7 @@ const metadata = {
     items={[
       {
         title: 'Por que Finance 4G?',
-        description:
-          "A forma mais moderna de controlar as finanças da sua empresa na nuvem",
+        description: 'A forma mais moderna de controlar as finanças da sua empresa na nuvem',
       },
       {
         title: 'O que eu preciso para começar?',
@@ -278,22 +280,22 @@ const metadata = {
       {
         title: 'Como obtenho acesso para editar?',
         description:
-          "A planilha é bloqueada por segurança. Basta ir no menu Arquivo e Salvar uma cópia. Ao salvar uma cópia com a conta Google da sua empresa você já terá acesso imediato",
+          'A planilha é bloqueada por segurança. Basta ir no menu Arquivo e Salvar uma cópia. Ao salvar uma cópia com a conta Google da sua empresa você já terá acesso imediato',
       },
       {
-        title: "Como eu posso compartilhar a planilha com o meu time",
+        title: 'Como eu posso compartilhar a planilha com o meu time',
         description:
-          "Você pode clicar no ícone compartilhar e cadastrar o e-mail das pessoas autorizadas. Não esqueça de habilitar o modo de edição.",
+          'Você pode clicar no ícone compartilhar e cadastrar o e-mail das pessoas autorizadas. Não esqueça de habilitar o modo de edição.',
       },
       {
         title: 'Porque algumas contas bancárias não aparecem no relatório?',
         description:
-          "As contas que não tiveram movimento no mês podem ficar escondidas. Para exibí-las basta adicionar um lançamento com valor 0 para esta conta, em qualquer data do més corrente",
+          'As contas que não tiveram movimento no mês podem ficar escondidas. Para exibí-las basta adicionar um lançamento com valor 0 para esta conta, em qualquer data do més corrente',
       },
       {
         title: 'Comecei hoje, como eu lanço o saldo anterior das minhas contas?',
         description:
-          "Basta adicionar um lançanento na data de hoje e escolher a conta bancária. Se o saldo for negativo informe um valor negativo, se for positivo informe um valor positivo. O saldo será automaticamente contabilizado",
+          'Basta adicionar um lançanento na data de hoje e escolher a conta bancária. Se o saldo for negativo informe um valor negativo, se for positivo informe um valor positivo. O saldo será automaticamente contabilizado',
       },
       {
         title: 'A minha conta no banco não bate com minha planilha. Como faço?',
@@ -331,8 +333,6 @@ const metadata = {
       Agência 4D&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Semear Esportes</span>
     </Fragment>
 
-    <Fragment slot="subtitle">
-      Ficou surpreso com nossos números? Não perca mais tempo
-    </Fragment>
+    <Fragment slot="subtitle"> Ficou surpreso com nossos números? Não perca mais tempo </Fragment>
   </CallToAction>
 </Layout>

@@ -16,7 +16,7 @@ Pronto para começar a controlar suas finanças? Baixe o Finance 4G na [Vakinha]
 
 <br>
 
-<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/Financial/screenshot-Financial-1.png" alt="Financial Theme Screenshot">
+<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/Financial/screenshot-Financial-1" alt="Financial Theme Screenshot">
 
 <br>
 
@@ -172,8 +172,8 @@ metadata:
     follow: true
   openGraph:
     site_name: 'Example'
-    images:
-      - url: '~/assets/images/default.png'
+    images: 
+      - url: 'https://github.com/ricardodarocha/4G/blob/main/src/assets/images/default.png'
         width: 1200
         height: 628
     type: website
